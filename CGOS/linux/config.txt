@@ -1,0 +1,17 @@
+# config file for testing various version of my GO program
+# Bot name must be within 18 characters.
+# -------------------------------------------------
+
+%section server
+#    9 x 9
+#    server cgos.boardspace.net
+#    port 6867
+#    19 x 19
+    server yss-aya.com
+    port 6819
+
+%section player
+    name      ${username}
+    password  ${password}
+    invoke    ${command}
+    priority  7
